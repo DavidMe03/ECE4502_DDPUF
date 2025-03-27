@@ -18,7 +18,7 @@ The DD-PUF generator will generate a 128-bit response, which will be passed to t
 3. FSM Design
 
 The FSM block will be a RTL block written in Verilog. It should have two outputs: start and reset. These outputs control the duration of the generate signal, or how long a logic high is set to the input of the DD-PUF generator.
-Additionally, the FSM block has a single 32-bit input taken from the SPI block: _duration_.
+Additionally, the FSM block has a single 32-bit input taken from the SPI block: _duration_. It also has a 1-bit input _FSM_START_, that activates the FSM and begins the process of triggering the DD-PUF.
 
 3. SPI Interface
 
