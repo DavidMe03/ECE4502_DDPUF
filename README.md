@@ -3,6 +3,10 @@ Repository that will contain information regarding the final project for ECE 450
 
 ## Objective and Motivation
 
+One of our motivations for this project is the novelty of the DD-PUF. According to the literature (https://www.mdpi.com/2410-387X/5/3/23), DD-PUFs are a fairly new method of generating unique keys. This allows us to work on a project that has not been done before, which has the possibility of contributing to research on DD-PUFs. Also, by working on more of a research-based topic, we can gain experience in conducting research on FPGA technologies. 
+Another motivation for this project is that it is conceptually easy to understand with a clear path forward. Although the project may still not be easy, it allows us to focus on building on previous research. We believe that we can make significant and meaningful progress in this project. 
+Our final motivation for choosing this project is to gain more experience in FPGA layout and optimization. In most FPGA projects, this is optimized and routed automatically by the implementation tool when generating the bitstream. However, for this project, we will not be able to rely on the automatic optimizations of the compiler. Because of this, we will be able to learn more about how the fabric layout is created and how to manipulate it to meet our designs. 
+
 ## Introduction/Context of Project
 
 ## Implementation Details
